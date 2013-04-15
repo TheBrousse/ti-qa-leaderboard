@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Titanium Q&A Leaderboard Rank",
+  "description": "This extension demonstrates a browser action with kittens.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://developer.appcelerator.com/questions/top-100-experts"
+  ],
+  "content_scripts": [ {
+    "js": [ "jquery-1.9.1.min.js", "scripts.js" ],
+    "matches": [ "http://*/*", "https://*/*"]
+  }],
+  "browser_action": {
+    "default_icon": "b375c23ba1568aa4bc3819e48763f91e.png",
+    "default_popup": "tileaderboard.html"
+  },
+  "background": {
+    "scripts":[ "background.js" ]
+  }
+}
