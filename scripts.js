@@ -21,12 +21,9 @@ function updateClock () {
 	var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
 	
 	
-	$("#clock").html(currentTimeString);
-
-	updateRank("17");
-	
- }
+	$("#clock").html(currentTimeString);	
+}
 
 document.addEventListener('DOMContentLoaded', function () {
-  setInterval(updateClock, 1000);
+  setInterval(updateClock, 60000);
 });

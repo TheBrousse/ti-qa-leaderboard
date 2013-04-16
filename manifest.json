@@ -16,7 +16,8 @@
     "default_icon": "b375c23ba1568aa4bc3819e48763f91e.png",
     "default_popup": "tileaderboard.html"
   },
+  "options_page": "options.html",
   "background": {
-    "scripts":[ "background.js" ]
+    "page": "background.html"
   }
 }

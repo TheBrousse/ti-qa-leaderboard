@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>background</key>
+	<dict>
+		<key>page</key>
+		<string>background.html</string>
+	</dict>
+	<key>browser_action</key>
+	<dict>
+		<key>default_icon</key>
+		<string>b375c23ba1568aa4bc3819e48763f91e.png</string>
+		<key>default_popup</key>
+		<string>tileaderboard.html</string>
+	</dict>
+	<key>content_scripts</key>
+	<array>
+		<dict>
+			<key>js</key>
+			<array>
+				<string>jquery-1.9.1.min.js</string>
+				<string>scripts.js</string>
+			</array>
+			<key>matches</key>
+			<array>
+				<string>http://*/*</string>
+				<string>https://*/*</string>
+			</array>
+		</dict>
+	</array>
+	<key>description</key>
+	<string>This extension demonstrates a browser action with kittens.</string>
+	<key>manifest_version</key>
+	<integer>2</integer>
+	<key>name</key>
+	<string>Titanium Q&amp;A Leaderboard Rank</string>
+	<key>permissions</key>
+	<array>
+		<string>http://developer.appcelerator.com/questions/top-100-experts</string>
+	</array>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>
