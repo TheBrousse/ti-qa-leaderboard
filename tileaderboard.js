@@ -10,6 +10,10 @@ function updateName() {
 //	document.getElementById("score").innerText = chrome.browserAction.getTitle();
 }
 
+function openNewTab(url) {
+    chrome.tabs.create({ url: newURL });
+}
+
 document.addEventListener('DOMContentLoaded', function () {
 	updateName();
 });

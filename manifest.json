@@ -6,7 +6,8 @@
   "version": "1.0",
 
   "permissions": [
-    "http://developer.appcelerator.com/questions/top-100-experts"
+    "http://developer.appcelerator.com/questions/top-100-experts",
+    "tabs"
   ],
   "content_scripts": [ {
     "js": [ "jquery-1.9.1.min.js", "tileaderboard.js" ],
