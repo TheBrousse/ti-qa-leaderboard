@@ -13,11 +13,13 @@ http://developer.appcelerator.com/questions/top-100-experts
 - Option window to set your name (This is what the code will look for when parsing the page)
 - Can set at which interval the page is checked. (Minimum 5 minutes to avoid poking loading the site too much)
 - Tooltip will display you actual score value
+- When you click on the toolbar icon, a popup window will appear showing very little information (for now)
 
 ###What is still not there yet
 - If you are not in the Top-100, I have no idea what happens then
-- URL Links int the popup window don't work yet for some reason
+- URL Links in the popup window do not work yet for some reason
 - Needs a way better README
+- Needs addtionnal functionality in the popup window
 - Publish it to the Chrome Store so everyone receive updates automatically
 
 ##How to install the Extension
