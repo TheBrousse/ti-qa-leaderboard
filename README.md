@@ -21,12 +21,15 @@ http://developer.appcelerator.com/questions/top-100-experts
 - Publish it to the Chrome Store so everyone receive updates automatically
 
 ##How to install the Extension
-
 Since the this Extension is still under development, you will need to install it manually by following these few steps:
-
 - Visit [chrome://extensions](chrome://extensions) in your browser (or open up the Chrome menu by clicking the icon to the far right of the Omnibox: . and select Extensions under the Tools menu to get to the same place).
 - Ensure that the **Developer Mode** checkbox in the top right-hand corner is checked.
 - Click **Load unpacked extension…** to pop up a file-selection dialog.
 - Navigate to the directory in which your extension files live, and select it.
 
 If the extension is valid, it'll be loaded up and active right away! If it's invalid, an error message will be displayed at the top of the page. Correct the error, and try again.
+
+##Getting it up and running
+Once the extension is installed, simply right-click on the icon from the toolbar and select the **Options** menu. From there, simply enter your name and set the refresh interval.
+
+**Note:** Since there is no *name checking* in place, make sure the name you enter matches the name entered on the site. (also wanna watch for trailing spaces since there is no trim yet)
